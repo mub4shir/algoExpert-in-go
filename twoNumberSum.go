@@ -42,7 +42,7 @@ func twoNumberSum(arr []int, target int) []int {
 	return []int{}
 }
 
-// O(1) time | O(n) space
+// O(n) time | O(n) space
 func twoNumberSum2(arr []int, target int) []int {
 	nums := map[int]bool{}
 	for _, num := range arr {
